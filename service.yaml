@@ -7,5 +7,5 @@ spec:
     app: wil
   ports:
     - protocol: TCP
-      port: 3200
+      port: 8080
       targetPort: 8888
