@@ -7,5 +7,7 @@ spec:
     app: wil
   ports:
     - protocol: TCP
+      nodePort: 30080
       port: 8080
       targetPort: 8888
+  type: NodePort
