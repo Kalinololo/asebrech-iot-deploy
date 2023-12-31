@@ -4,6 +4,7 @@ metadata:
   name: wil
 spec:
   selector:
+    type: LoadBalancer
     app: wil
   ports:
     - protocol: TCP
